@@ -1,0 +1,224 @@
+/* Mobile */
+@media screen and (min-width: 360px){
+    body{
+        background-color: black;
+        color: white;
+        padding: 0;
+        margin: 0;
+        background-image: url(/images/vecteezy_abstract-splatter-background-with-tire-track_6689172.jpg);
+
+    }
+
+    .navbar{
+        background-color: rgba(255,255,0, 0.2);
+    }
+    .navbar-toggler {
+        border: 1px solid gold;
+    }
+
+    .offcanvas, .header__nav__link{
+        background-color: black;
+        color: gold;
+        font-family: "Goblin One", Arial, Helvetica, sans-serif;
+    }
+
+
+    .header__title{
+      text-transform: uppercase;
+      color: white;
+      font-family: "Goblin One", Arial, Helvetica, sans-serif;
+      font-weight: normal;
+      text-shadow: 2px 2px 3px black;
+    }
+    
+    .section__title--h2{
+        color:gold;
+        margin: 22px 15px 20px 15px;
+        font-size: 1.8em;
+        text-align: center;
+        text-transform: uppercase;
+        text-shadow: 0px 0px 2px rgb(255, 255, 255);
+      }
+
+      .main__section{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+
+      .article__text{ 
+        border: 1px solid gold;
+        padding: 10px;
+        margin: 15px;
+        width: 300px;
+        border-radius: 25px 0 25px 0;
+      }
+      .article__text:hover {
+        background-color: rgba(255,255,0, 0.1);
+      }
+
+      .slidersCards{ 
+        background-color: rgba(255,255,0, 0.1);
+        color: gold;
+        padding: 10px;
+        margin: 15px;
+        border-radius: 25px;
+        text-align: center;
+
+      }
+
+      .btnSlid{
+        justify-content: flex-end;
+        color: white;
+        font-size: 30px;
+      }
+      .btnAnterior{
+        margin-left: 300px;
+      }
+
+      .newsletter h3{
+        margin-left: 15px;
+      }
+      .formulario{
+        margin-left: 15px;
+        display: flex;
+      }
+
+      .formInput{
+        width: 330px;
+        background-color: black;
+        border: 1px solid gold;
+        border-radius: 50px;
+        margin-top: 15px;
+        text-align: center;
+        color: white;
+      }
+      .formBtn{
+        background-color: gold;
+        border: none;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border-radius: 20px;
+        align-content: center;
+
+      }
+
+      footer{
+        background-color: rgba(255,255,0, 0.1);
+        text-align: center;
+      }
+      footer p{
+        padding: 0;
+        margin: 5px;
+      }
+
+      footer i{
+        margin-top: 10px;
+        font-size: 50px;
+        color: white;
+
+      }
+      footer i:visited{
+        color: white;
+        background-color:rgb(76, 82, 4);
+      }
+
+
+}
+
+/* Desktop */
+@media screen and (min-width: 361px ){
+
+  body{
+    background-position: top 690px left 1px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .header__nav__link{
+      text-transform: uppercase;
+      font-size: 15px;
+      color: white;
+      font-family: "Goblin One", Arial, Helvetica, sans-serif;
+      font-weight: normal;
+      text-shadow: 2px 2px 3px black;
+      letter-spacing: 3px;
+      background-color: transparent;
+  }
+
+  .main__article{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .article__text{
+    border: 1px solid gold;
+    line-height: 1.2;
+    padding: 30px;
+    margin: 10px;
+    width: 280px;
+    border-radius: 25px 0 25px 0;
+    text-align: center;
+  }
+
+  #slidersCards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .slidersCardsDesk{
+    border: 1px solid white;
+    background-color: rgba(255,255,0, 0.1);
+    color: gold;
+    margin: 10px;
+    display: inline-block;
+    width: 280px;
+    padding: 30px;
+    border-radius: 0 25px 0 25px;
+  }
+  .slidersCardsDesk:hover{
+    background-color: transparent;
+
+  }
+
+  .formInput{
+    display:inline;
+    margin-top: 25px;
+    margin-left: 20px;
+    width: 330px;
+  }
+  .formBtn{
+    width: 80px;
+  }
+
+  .newsletter{
+    /* display:inline-block; */
+    display: flex;
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+
+  .newsletter h3{
+    display:inline-block;
+    font-size: 2.2em;
+    width: 300px;
+  }
+  .newsletter strong{
+    font-size: 1.5em;
+  }
+
+  .mensagemErro{
+    position: absolute;
+    color: red;
+    width: 330px;
+    margin-left: 20px;
+
+  }
+
+  .email{
+    margin-left: 375px;
+  }
+
+}
